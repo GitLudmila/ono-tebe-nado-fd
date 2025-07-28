@@ -76,6 +76,14 @@
   background-size: cover;
 }
 
+.darken:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 60%;
+  background: var(--text-black);
+}
+
 .cover__title {
   position: sticky;
   z-index: 10;
@@ -331,7 +339,7 @@ background-image: url("./../images/card-lot-03.jpg");
 
 .footer__links--yt {
   margin-right: 4px;
-	background-image: url("./../images/yt.svg");
+  background-image: url("./../images/yt.svg");
 }
 
 .footer__links--vk {

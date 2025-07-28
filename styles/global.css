@@ -51,11 +51,3 @@ img {
 button {
   font: inherit;
 }
-
-.darken:before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 60%;
-  background: var(--text-black);
-}
